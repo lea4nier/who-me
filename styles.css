@@ -49,14 +49,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px);
-    /* adjust if your nav is taller/shorter */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.center-image img {
+.center-image video {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
+    /* optional for rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* optional for shadow effect */
 }
+
 
 .poster-image {
     display: flex;
